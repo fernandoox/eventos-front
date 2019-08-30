@@ -1,0 +1,13 @@
+.inner-sidenav-content {
+  overflow: auto;
+  position: top;
+  bottom:0;
+  left:0;
+  right:0;
+  top:62px;
+  width: 100%  !important;
+}
+
+.inner-sidenav {
+  padding-top: 65px;
+}

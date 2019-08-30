@@ -1,0 +1,9 @@
+<mat-nav-list>
+  <button mat-stroked-button color="primary" (click)="isSideBarExpanded = !isSideBarExpanded">
+    <mat-icon>menu</mat-icon> <span *ngIf="isSideBarExpanded">Menú</span>
+  </button>
+  <a mat-list-item *ngFor="let link of links" [routerLink]="link.path" routerLinkActive="active">
+    <mat-icon matListIcon>{{ link.icon }}</mat-icon>
+    <span *ngIf="isSideBarExpanded">{{ link.label }}</span>
+  </a>
+</mat-nav-list>
