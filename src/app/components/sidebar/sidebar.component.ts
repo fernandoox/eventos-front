@@ -22,5 +22,5 @@ export class SidebarComponent{
     { label: 'Catálogos', path: 'catalogos', icon: 'list' }
   ];
 
-  isSideBarExpanded = false;
+  isSideBarExpanded = true;
 }

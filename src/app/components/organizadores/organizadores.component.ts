@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { OrganizadoresService } from '../services/organizadores.service';
+import { OrganizadoresService } from '../../services/organizadores.service';
 
 @Component({
   selector: 'app-organizadores',
