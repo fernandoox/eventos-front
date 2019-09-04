@@ -1,0 +1,13 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+}
+
+.form-container > * {
+  width: 100%;
+}
+
+.btn-save {
+  margin-top: 15px;
+}
